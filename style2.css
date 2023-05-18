@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.work {
+    height: 60vh;
+    width: 100vw;
+    background-color: linear-gradient(120deg, #222639, #1a1d2e);
+}
+
+.heading {
+display: flex;
+position: absolute;
+}
+
+.bar {
+    height: 40px;
+    width: 10px;
+      background-color: red;
+}
+.project {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #00b8ff, #00ffd8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glowing 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glowing {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+  }
+.article-card {
+    width: 350px;
+    height: 220px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .article-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-card .content {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 30px 20px 20px 20px;
+    height: auto;
+    bottom: 0;
+
+  }
+  
+  .article-card .date,
+  .article-card .title {
+    margin: 0;
+  }
+  
+  .article-card .date {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 4px;
+    font-family: 'Pacifico', cursive;
+    color: #c1dc0c;
+    text-shadow: 4px 1px 1px rgb(0 0 0);
+  }
+  
+    .article-card .title {
+        font-size: 19px;
+        font-family: 'Pacifico', cursive;
+        color: #c1dc0c;
+        text-shadow: 4px 1px 1px rgb(0 0 0);
+  }
